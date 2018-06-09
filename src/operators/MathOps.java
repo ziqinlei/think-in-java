@@ -26,7 +26,7 @@ public class MathOps {
         System.out.println("k % j : " + i);
         j %= k;
         System.out.println("j %= k : " + j);
-        float u, v, w; // Applies to doubles, too
+        float u, v, w;
         v = rand.nextFloat();
         System.out.println("v : " + v);
         w = rand.nextFloat();
