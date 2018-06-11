@@ -10,6 +10,8 @@ public class IfElse {
     private static void test(int testval, int target) {
         if (testval > target) {
             result = +1;
+        } else if (testval < target) {
+            result = -1;
         } else {
             result = 0;
         }
